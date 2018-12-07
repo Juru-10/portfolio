@@ -12,3 +12,7 @@ nav>ul{
   flex-direction: row;
   justify-content: space-around;
 }
+ul>li{
+  display: inline-block;
+  text-align: center;
+}
