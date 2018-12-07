@@ -47,3 +47,7 @@ a:hover{
   width: 500px;box-shadow: 0 5px 5px 0;
   text-align:center;
 }
+h1,h2,h3{
+  padding: 50px;
+  text-align: center;
+}
