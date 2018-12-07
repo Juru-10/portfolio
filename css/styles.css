@@ -30,3 +30,11 @@ a:hover{
   flex-direction: row;
   justify-content: space-around;
 }
+#home>div,nav{
+  width: 30%;
+}
+.slogan{
+  margin-top: 100px;
+  line-height: 10px;
+  font-size: 30px;
+}
