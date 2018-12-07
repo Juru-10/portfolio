@@ -16,3 +16,8 @@ ul>li{
   display: inline-block;
   text-align: center;
 }
+a{
+  color: purple;
+  font-size: 30px;
+  text-decoration: none;
+}
