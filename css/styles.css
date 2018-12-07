@@ -25,3 +25,8 @@ a:hover{
   color: black;
   background-color: gray;
 }
+#home{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
