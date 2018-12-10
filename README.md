@@ -1,6 +1,6 @@
 # Portfolio
 #### profile,about me,interests,hobbies,..., 5th,Dec,2018
-#### By **{Assumpta Uwanyirijuru}**
+#### By **Assumpta Uwanyirijuru**
 ## Description
 This is my portfolio. It contains all that is necessary to know about me;Name, Current occupation and projects that I'm working on,Educational background and hobbies. It will help you to know much about my professional journey since day one up to now. It shows the links to my GitHub and GitHub Pages Projects from the first project I made to the current one. Thank you for reading it and feel free to share with me what you think either about it,me;its owner, and my projects.
 ## Setup/Installation Requirements
@@ -17,7 +17,7 @@ It is made by HTML and CSS programming languages.
 If you meet any issue, have questions, ideas or concerns;please contact me on *jurassu10@gmail.com* and any contribution to the code is welcomed and will be much apprecited.
 ### License
 *This project is licenced under the MIT license.*
-Copyright (c) {2018} **{WeCode program under Moringa Project}**
+Copyright (c) 2018 **WeCode program under Moringa Project**
 ### Acknowledgments
 .Moringa School Project/WeCode Programming.
 .Technical Mentors.
