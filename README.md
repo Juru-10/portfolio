@@ -7,7 +7,7 @@ This is my portfolio. It contains all that is necessary to know about me;Name, C
 * This portfolio can be read by anyone;
 * as long as you have an access on the internet,
 * your browser can read html, css and md files.
-* and have the link to it.[your-username.github.io/portfolio]
+* and have the link to it on *GitHub pages*.**[Juru-10.github.io/portfolio]**
 * You can access its all content.
 ## Known Bugs
 This project may not be as responsive as your browser needs, but It is still in Development and that will be soon resolved.
@@ -22,3 +22,5 @@ Copyright (c) 2018 **WeCode program under Moringa Project**
 .Moringa School Project/WeCode Programming.
 .Technical Mentors.
 .Fellow Students.
+### Link to this project on GitHub:
+***https://github.com/Juru-10/portfolio.git***
