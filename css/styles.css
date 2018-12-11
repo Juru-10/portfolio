@@ -40,13 +40,13 @@ a:hover{
 }
 #one{font-size: 30px;}
 #two{font-size: 40px;}
-#three{font-size: 60px;}
+#three{font-size: 50px;}
 #profile{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-image: url(/home/wecode/Desktop/portfolio/images/myAvatar.jpg);
+  background-image: url("../images/myAvatar.svg");
   background-size: cover;
   background-repeat: no-repeat;
   border: 2px solid gray;
