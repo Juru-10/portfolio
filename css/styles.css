@@ -1,6 +1,13 @@
 body{
   background-color: black;
   color: white;
+  font-family: monospace;
+}
+#home{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 nav{
   float: right;
@@ -10,11 +17,11 @@ nav{
 nav>ul{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 ul>li{
   display: inline-block;
-  text-align: center;
+  text-align: center;justify-content: space-between;
 }
 a{
   color: purple;
@@ -24,15 +31,6 @@ a{
 a:hover{
   color: black;
   background-color: gray;
-}
-#home{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-#home>div,nav{
-  width: 30%;
 }
 .slogan{
   margin-top: 100px;
@@ -45,8 +43,8 @@ a:hover{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  flex-wrap: wrap;
-  background-image: url(/home/wecode/Desktop/portfolio/images/myAvatar.jpg);
+  align-items: center;
+  background-image: url(../images/myAvatar.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   border: 2px solid gray;
@@ -63,15 +61,15 @@ h1,h2,h3{
   text-align: center;
   font-size: 30px;
 }
-.lang{font-size: 30px;}
+.lang>li{
+  font-size: 30px;
+  display: block;
+}
 #about , #projects>ul{
   display:flex;
   flex-direction:row;
   flex-wrap: wrap;
   justify-content: space-around;
-}
-#about>div>ul>li{
-  display: block;
 }
 #about div,#projects li{
   width: 30%;
@@ -100,7 +98,8 @@ footer{
   justify-content: space-around;
 }
 #contact>div{
-  display: inline-block;text-align: center;
+  display: inline-block;
+  text-align: center;
 }
 #contact p,.rights p{
   padding: 0;
@@ -113,21 +112,9 @@ footer{
   border-top:  2px solid gray;
 }
 @media only screen and (max-width: 1200px) {
-  #home{
-    display: block;
-    justify-content: center;}
-  #slogan{width: 90%;}
+  #slogan,nav,#about div,#projects li{width: 90%;}
   #profile{
-    width: 90%;
-    height:50vh;
+    width: 80%;
+    height:80vw;
   }
-  nav{width:90%;}
-  #about div,#projects li{width: 90%;}
-}
-@media only screen and (max-width: 1600px) {
-  #profile{
-    display: block;
-  }
-  #profile h2{margin-top: 80px;}
-  nav>ul>li{margin: 30px;}
 }
